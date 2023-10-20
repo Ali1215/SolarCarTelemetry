@@ -31,8 +31,6 @@ To switch to an existing branch: ```git checkout <branch_name>```
 
 ### Merging
 To merge changes from one branch into another: 
-```
-git checkout <target_branch>  # Switch to the target branch
+```git checkout <target_branch>  # Switch to the target branch
 git merge <source_branch>  # Merge changes from the source branch
 ```
-If conflicts occur during a merge, you will need to resolve them manually. Open the conflicted file, make the necessary changes, and then commit the resolved file.
