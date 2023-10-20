@@ -17,3 +17,21 @@ After making changes to your local code, you need to add and commit them to your
 git add <file_name>  # Stage the changes
 git commit -m "Your commit message"  # Commit the changes
 ```
+### Pushing Changes
+To upload your local changes to the remote repository, use the following command: 
+```git push```
+
+### Pulling Changes
+To update your local repository with changes from the remote repository, use the following command:
+```git pull```
+
+### Branching
+To create and switch to a new branch: ```git checkout -b <branch_name>```
+To switch to an existing branch: ```git checkout <branch_name>```
+
+### Merging
+To merge changes from one branch into another: ```
+git checkout <target_branch>  # Switch to the target branch
+git merge <source_branch>  # Merge changes from the source branch
+```
+If conflicts occur during a merge, you will need to resolve them manually. Open the conflicted file, make the necessary changes, and then commit the resolved file.
